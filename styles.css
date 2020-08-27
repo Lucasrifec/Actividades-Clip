@@ -1,0 +1,34 @@
+#clip {
+    padding-top: 50;
+}
+
+#formulario {
+    padding-top: 50;
+}
+
+label {
+    color: white;
+}
+
+#pie {
+    color: white;
+    font-size: small;
+}
+
+#prox {
+    padding-top: 300;
+    color: white;
+    text-align-last: inherit;
+}
+
+#tabla{
+    padding-top: 50;
+}
+
+th{
+    color: white;
+}
+
+td{
+    color: white;
+}
