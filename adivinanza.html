@@ -13,8 +13,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src="adivinanza.js"></script>
 </head>
-<title>Proximamente</title>
+<title>Adivinanza</title>
 <style>
     body {
         background-color: cadetblue;
@@ -31,13 +32,15 @@
                 <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="adivinanza.html">Adivinanza</a>
+                <a class="nav-link" href="#">Adivinanza</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="formulario.html">Formulario</a>
+                <li class="nav-item">
+            </li>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Próximamente</a>
+                <a class="nav-link" href="proximamente.html">Próximamente</a>
             </li>
         </ul>
     </div>
@@ -45,14 +48,26 @@
 
 
 
-<body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 d-flex justify-content-center">
-                <h1 id="prox" class="text-center">Espacio reservado para futuro contenido.</h1>
-            </div>
-        </div>
+
+
+    <div class="container">
+        <div class="col-sm-12">
+        <h1 id="adiv" class="text-center">Somos muchos hermanitos, en una sola casa vivimos, si nos rascan la cabeza al instante morimos.</h1>
     </div>
+    <div class="container">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <button class="btn btn-outline-light" type="button" id="boton" onclick="adivinar()">Enviar</button>
+            </div>
+            <input type="text" id="rta" class="form-control" placeholder="Respuesta..." aria-label="Example text with button addon" aria-describedby="button-addon1">
+          </div>
+        <br>
+        <p id="intento">Intentos restantes: </p>
+        <br>
+        <p id="pista">Pista: </p>
+    </div>
+
+
 </body>
 <footer class="fixed-bottom">
     <div class="container-fluid">

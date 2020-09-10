@@ -31,6 +31,9 @@
                 <a class="nav-link" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="adivinanza.html">Adivinanza</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Formulario</a>
             </li>
             <li class="nav-item">
@@ -51,7 +54,14 @@
 <body>
     <img id="clip" src="imagenes/logo.png" alt="Logo del programa Clip" width="300" class="rounded mx-auto d-block">
     <form class="col-md-6 offset-md-3" id="formulario">
-        <label>*Nombre y Apellido</label>
+        <label>*Nombre/s</label>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+            </div>
+            <input type="text" class="form-control" placeholder="..." aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-default" required>
+        </div>
+        <label>*Apellido/s</label>
         <div class="input-group mb-3">
             <div class="input-group-prepend">
             </div>
@@ -77,12 +87,11 @@
         <button type="reset" class="btn btn-danger">Borrar</button>
     </form>
 </body>
-<footer class="fixed-bottom">
+<footer class="bottom">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 d-flex justify-content-center">
-                <p id="pie" class="text-center">Contenido desarrollado para las actividades dictadas el día Martes 25 de
-                    Agosto.</p>
+                <p id="pie" class="text-center">Contenido desarrollado para las actividades dictadas por el programa CLIP.</p>
             </div>
         </div>
     </div>
